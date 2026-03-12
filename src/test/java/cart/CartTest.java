@@ -116,7 +116,7 @@ public class CartTest extends BaseClass {
         List<Integer> itemIds = res.jsonPath().getList("data.itemId");
 
         if(itemIds == null || itemIds.isEmpty()) {
-            System.out.println("Cart already empty");
+            System.out.println("Cart already empty !!!");
             return;
         }
 
