@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-12T12:18:31 IST" name="Default suite" finished-at="2026-03-12T12:18:40 IST" duration-ms="8762">
+    <groups>
+    </groups>
+    <test started-at="2026-03-12T12:18:31 IST" name="Default test" finished-at="2026-03-12T12:18:40 IST" duration-ms="8762">
+      <class name="cart.CartTest">
+        <test-method is-config="true" signature="LogInTest()[pri:0, instance:cart.CartTest@2a4fb17b]" started-at="2026-03-12T12:18:31 IST" name="LogInTest" finished-at="2026-03-12T12:18:34 IST" duration-ms="2428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest -->
+        <test-method signature="fetchAllProducts()[pri:0, instance:cart.CartTest@2a4fb17b]" started-at="2026-03-12T12:18:34 IST" name="fetchAllProducts" finished-at="2026-03-12T12:18:38 IST" duration-ms="4659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchAllProducts -->
+        <test-method signature="addProductToCart()[pri:0, instance:cart.CartTest@2a4fb17b]" started-at="2026-03-12T12:18:38 IST" name="addProductToCart" finished-at="2026-03-12T12:18:39 IST" depends-on-methods="cart.CartTest.fetchAllProducts" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method signature="updateCart()[pri:0, instance:cart.CartTest@2a4fb17b]" started-at="2026-03-12T12:18:39 IST" name="updateCart" finished-at="2026-03-12T12:18:39 IST" depends-on-methods="cart.CartTest.addProductToCart" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCart -->
+        <test-method signature="deleteProductFromCart()[pri:0, instance:cart.CartTest@2a4fb17b]" started-at="2026-03-12T12:18:39 IST" name="deleteProductFromCart" finished-at="2026-03-12T12:18:40 IST" depends-on-methods="cart.CartTest.updateCart" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProductFromCart -->
+      </class> <!-- cart.CartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
