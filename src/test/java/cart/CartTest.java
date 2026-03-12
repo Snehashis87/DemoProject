@@ -8,8 +8,6 @@ import java.util.List;
 import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
-//import pojo.AddToCartPojo;
-//import pojo.UpdateCartPojo;
 
 public class CartTest extends BaseClass {
 
@@ -136,6 +134,6 @@ public class CartTest extends BaseClass {
                 .log().all();
         }
 
-        System.out.println("All cart items deleted successfully");
+        System.out.println("All cart items deleted successfully ....");
     }
 }
